@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Flutter Demo",
+  "example_set_state_title": "SetState Example",
+  "example_set_state_content": "You have pushed the button this many times:",
+  "example_provider_title": "Provider Example"
+}

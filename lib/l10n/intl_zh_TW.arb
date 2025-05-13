@@ -1,0 +1,8 @@
+{
+  "@@locale": "zh_TW",
+
+  "appTitle": "Flutter 範例",
+  "example_set_state_title": "SetState 範例",
+  "example_set_state_content": "你按下按鈕的次數：",
+  "example_provider_title": "Provider 範例"
+}
