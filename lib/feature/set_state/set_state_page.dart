@@ -18,27 +18,37 @@ class _SetStatePageState extends State<SetStatePage> {
     });
   }
 
-  /**
-   * 當畫面刷新時，
-   * 只會執行 build
-   * 其他生命週期都不會執行
-   */
+  /// 當畫面刷新時，
+  /// 只會執行 build
+  /// 其他生命週期都不會執行
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
         title: Text(MyLocalizations.of(context).example_set_state_title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(MyLocalizations.of(context).example_set_state_content),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineLarge,
-            ),
-          ],
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                MyLocalizations.of(context).example_set_state_content,
+                style: const TextStyle(fontSize: 20, color: Colors.black),
+              ),
+              SizedBox(height: 16),
+              Text(
+                '$_counter',
+                style: const TextStyle(
+                  fontSize: 26,
+                  color: Colors.blue,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
