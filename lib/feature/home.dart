@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
-        centerTitle: Platform.isAndroid,
+        centerTitle: Platform.isIOS,
         title: Text(MyLocalizations.of(context).appTitle),
       ),
       body: Padding(
@@ -25,6 +25,24 @@ class Home extends StatelessWidget {
                 onTap: () {
                   // 使用 GoRouter 進行導航
                   context.go('/set_state');
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text(MyLocalizations.of(context).example_inherited_widget_title),
+                onTap: () {
+                  // 使用 GoRouter 進行導航
+                  context.go('/inherited_widget');
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text(MyLocalizations.of(context).example_notifier_title),
+                onTap: () {
+                  // 使用 GoRouter 進行導航
+                  context.go('/notifier_page');
                 },
               ),
             ),

@@ -20,9 +20,27 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
+  static String m0(userName) => "Hello ${userName}";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "appTitle": MessageLookupByLibrary.simpleMessage("Flutter Demo"),
+    "example_inherited_widget_content": MessageLookupByLibrary.simpleMessage(
+      "Enter your username:",
+    ),
+    "example_inherited_widget_content2": m0,
+    "example_inherited_widget_title": MessageLookupByLibrary.simpleMessage(
+      "InheritedWidget Example",
+    ),
+    "example_inherited_widget_title2": MessageLookupByLibrary.simpleMessage(
+      "Welcome",
+    ),
+    "example_notifier_content": MessageLookupByLibrary.simpleMessage(
+      "You have pushed the button this many times:",
+    ),
+    "example_notifier_title": MessageLookupByLibrary.simpleMessage(
+      "Notifier Example",
+    ),
     "example_provider_title": MessageLookupByLibrary.simpleMessage(
       "Provider Example",
     ),

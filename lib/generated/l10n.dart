@@ -80,6 +80,66 @@ class MyLocalizations {
     );
   }
 
+  /// `InheritedWidget Example`
+  String get example_inherited_widget_title {
+    return Intl.message(
+      'InheritedWidget Example',
+      name: 'example_inherited_widget_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your username:`
+  String get example_inherited_widget_content {
+    return Intl.message(
+      'Enter your username:',
+      name: 'example_inherited_widget_content',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Welcome`
+  String get example_inherited_widget_title2 {
+    return Intl.message(
+      'Welcome',
+      name: 'example_inherited_widget_title2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hello {userName}`
+  String example_inherited_widget_content2(Object userName) {
+    return Intl.message(
+      'Hello $userName',
+      name: 'example_inherited_widget_content2',
+      desc: '',
+      args: [userName],
+    );
+  }
+
+  /// `Notifier Example`
+  String get example_notifier_title {
+    return Intl.message(
+      'Notifier Example',
+      name: 'example_notifier_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You have pushed the button this many times:`
+  String get example_notifier_content {
+    return Intl.message(
+      'You have pushed the button this many times:',
+      name: 'example_notifier_content',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Provider Example`
   String get example_provider_title {
     return Intl.message(

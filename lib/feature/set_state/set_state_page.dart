@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:my_sample/generated/l10n.dart';
 
@@ -26,6 +28,7 @@ class _SetStatePageState extends State<SetStatePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
+        centerTitle: Platform.isIOS,
         title: Text(MyLocalizations.of(context).example_set_state_title),
       ),
       body: Padding(

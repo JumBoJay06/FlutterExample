@@ -1,8 +1,13 @@
 {
   "@@locale": "zh_TW",
-
   "appTitle": "Flutter 範例",
   "example_set_state_title": "SetState 範例",
   "example_set_state_content": "你按下按鈕的次數：",
+  "example_inherited_widget_title": "InheritedWidget 範例",
+  "example_inherited_widget_content": "輸入使用者名稱:",
+  "example_inherited_widget_title2": "歡迎",
+  "example_inherited_widget_content2": "你好 {userName}",
+  "example_notifier_title": "Notifier 範例",
+  "example_notifier_content": "你按下按鈕的次數：",
   "example_provider_title": "Provider 範例"
 }

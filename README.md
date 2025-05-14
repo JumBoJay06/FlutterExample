@@ -6,5 +6,7 @@ A new Flutter project.
 - 多國語系
 - GoRouter
 - SetState
+- InheritedWidget
+- ValueNotifier / ChangeNotifier
 
 > 未完待續，有時間就會來補齊一些 Flutter 常用的功能與套件

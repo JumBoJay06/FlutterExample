@@ -1,8 +1,13 @@
 {
   "@@locale": "en",
-
   "appTitle": "Flutter Demo",
   "example_set_state_title": "SetState Example",
   "example_set_state_content": "You have pushed the button this many times:",
+  "example_inherited_widget_title": "InheritedWidget Example",
+  "example_inherited_widget_content": "Enter your username:",
+  "example_inherited_widget_title2": "Welcome",
+  "example_inherited_widget_content2": "Hello {userName}",
+  "example_notifier_title": "Notifier Example",
+  "example_notifier_content": "You have pushed the button this many times:",
   "example_provider_title": "Provider Example"
 }
