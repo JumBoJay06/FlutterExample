@@ -9,5 +9,6 @@
   "example_inherited_widget_content2": "你好 {userName}",
   "example_notifier_title": "Notifier 範例",
   "example_notifier_content": "你按下按鈕的次數：",
-  "example_provider_title": "Provider 範例"
+  "example_provider_title": "Provider 範例",
+  "example_provider_add": "新增書籤"
 }

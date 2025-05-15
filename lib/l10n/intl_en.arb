@@ -9,5 +9,6 @@
   "example_inherited_widget_content2": "Hello {userName}",
   "example_notifier_title": "Notifier Example",
   "example_notifier_content": "You have pushed the button this many times:",
-  "example_provider_title": "Provider Example"
+  "example_provider_title": "Provider Example",
+  "example_provider_add": "Add Bookmark"
 }

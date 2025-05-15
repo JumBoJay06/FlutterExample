@@ -149,6 +149,16 @@ class MyLocalizations {
       args: [],
     );
   }
+
+  /// `Add Bookmark`
+  String get example_provider_add {
+    return Intl.message(
+      'Add Bookmark',
+      name: 'example_provider_add',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<MyLocalizations> {

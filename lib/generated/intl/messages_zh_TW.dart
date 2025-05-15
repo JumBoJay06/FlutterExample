@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "example_notifier_title": MessageLookupByLibrary.simpleMessage(
       "Notifier 範例",
     ),
+    "example_provider_add": MessageLookupByLibrary.simpleMessage("新增書籤"),
     "example_provider_title": MessageLookupByLibrary.simpleMessage(
       "Provider 範例",
     ),
