@@ -159,6 +159,16 @@ class MyLocalizations {
       args: [],
     );
   }
+
+  /// `Riverpod Example`
+  String get example_riverpod_title {
+    return Intl.message(
+      'Riverpod Example',
+      name: 'example_riverpod_title',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<MyLocalizations> {

@@ -45,6 +45,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "example_provider_title": MessageLookupByLibrary.simpleMessage(
       "Provider 範例",
     ),
+    "example_riverpod_title": MessageLookupByLibrary.simpleMessage(
+      "Riverpod 範例",
+    ),
     "example_set_state_content": MessageLookupByLibrary.simpleMessage(
       "你按下按鈕的次數：",
     ),

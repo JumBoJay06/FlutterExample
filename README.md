@@ -9,5 +9,6 @@ A new Flutter project.
 - InheritedWidget
 - ValueNotifier / ChangeNotifier
 - Provider
+- Riverpod
 
 > 未完待續，有時間就會來補齊一些 Flutter 常用的功能與套件

@@ -47,6 +47,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "example_provider_title": MessageLookupByLibrary.simpleMessage(
       "Provider Example",
     ),
+    "example_riverpod_title": MessageLookupByLibrary.simpleMessage(
+      "Riverpod Example",
+    ),
     "example_set_state_content": MessageLookupByLibrary.simpleMessage(
       "You have pushed the button this many times:",
     ),

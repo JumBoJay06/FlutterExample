@@ -21,7 +21,9 @@ class Home extends StatelessWidget {
           children: [
             Card(
               child: ListTile(
-                title: Text(MyLocalizations.of(context).example_set_state_title),
+                title: Text(
+                  MyLocalizations.of(context).example_set_state_title,
+                ),
                 onTap: () {
                   // 使用 GoRouter 進行導航
                   context.go('/set_state');
@@ -30,7 +32,9 @@ class Home extends StatelessWidget {
             ),
             Card(
               child: ListTile(
-                title: Text(MyLocalizations.of(context).example_inherited_widget_title),
+                title: Text(
+                  MyLocalizations.of(context).example_inherited_widget_title,
+                ),
                 onTap: () {
                   // 使用 GoRouter 進行導航
                   context.go('/inherited_widget');
@@ -55,10 +59,18 @@ class Home extends StatelessWidget {
                 },
               ),
             ),
+            Card(
+              child: ListTile(
+                title: Text(MyLocalizations.of(context).example_riverpod_title),
+                onTap: () {
+                  // 使用 GoRouter 進行導航
+                  context.go('/riverpod');
+                },
+              ),
+            ),
           ],
         ),
       ),
     );
   }
-
 }
