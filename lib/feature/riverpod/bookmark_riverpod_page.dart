@@ -34,7 +34,12 @@ class BookmarkListWidget extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // 當 state 有變化時，會自動 rebuild
-    final bookmarksState = ref.watch(bookmarkProvider);
+    // final bookmarksState = ref.watch(bookmarkProvider);
+    final bookmarksState = ref.watch(bookmarkProvider.select((selector) {
+      return selector.whenData((data) {
+        return data.list;
+      });
+    }));
     // 因為是用 AsyncNotifierProvider，內建下面三個狀態可以用
     return bookmarksState.when(
       data:
@@ -63,7 +68,11 @@ class BookmarkAddWidget extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final bookmarksState = ref.watch(bookmarkProvider);
+    final bookmarksState = ref.watch(bookmarkProvider.select((selector) {
+      return selector.whenData((data) {
+        return data.list;
+      });
+    }));
     return bookmarksState.when(
       data:
           (data) => ElevatedButton(
