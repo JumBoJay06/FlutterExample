@@ -1,6 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:my_sample/config/app_config.dart';
+import 'package:my_sample/feature/bloc/bookmark_bloc_page.dart';
+import 'package:my_sample/feature/cubit/bookmark_cubit_page.dart';
 import 'package:my_sample/feature/home.dart';
 import 'package:my_sample/feature/inherited_widget/inherited_widget.dart';
 import 'package:my_sample/feature/provider/bookmark_page.dart';
@@ -42,6 +44,18 @@ final router = GoRouter(
           path: 'riverpod',
           builder: (context, state) {
             return ProviderScope(child: const BookmarkRiverpodPage());
+          },
+        ),
+        GoRoute(
+          path: 'bloc',
+          builder: (context, state) {
+            return const BookmarkBlocPage();
+          },
+        ),
+        GoRoute(
+          path: 'cubit',
+          builder: (context, state) {
+            return const BookmarkCubitPage();
           },
         ),
       ],

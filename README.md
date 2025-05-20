@@ -10,5 +10,6 @@ A new Flutter project.
 - ValueNotifier / ChangeNotifier
 - Provider
 - Riverpod
+- Bloc / Cubit
 
 > 未完待續，有時間就會來補齊一些 Flutter 常用的功能與套件

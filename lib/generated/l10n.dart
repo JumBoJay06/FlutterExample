@@ -169,6 +169,26 @@ class MyLocalizations {
       args: [],
     );
   }
+
+  /// `Bloc Example`
+  String get example_bloc_title {
+    return Intl.message(
+      'Bloc Example',
+      name: 'example_bloc_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cubit Example`
+  String get example_cubit_title {
+    return Intl.message(
+      'Cubit Example',
+      name: 'example_cubit_title',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<MyLocalizations> {

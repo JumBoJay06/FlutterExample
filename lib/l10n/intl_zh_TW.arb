@@ -11,5 +11,7 @@
   "example_notifier_content": "你按下按鈕的次數：",
   "example_provider_title": "Provider 範例",
   "example_provider_add": "新增書籤",
-  "example_riverpod_title": "Riverpod 範例"
+  "example_riverpod_title": "Riverpod 範例",
+  "example_bloc_title": "Bloc 範例",
+  "example_cubit_title": "Cubit 範例"
 }

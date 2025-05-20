@@ -11,5 +11,7 @@
   "example_notifier_content": "You have pushed the button this many times:",
   "example_provider_title": "Provider Example",
   "example_provider_add": "Add Bookmark",
-  "example_riverpod_title": "Riverpod Example"
+  "example_riverpod_title": "Riverpod Example",
+  "example_bloc_title": "Bloc Example",
+  "example_cubit_title": "Cubit Example"
 }
