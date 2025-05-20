@@ -86,6 +86,15 @@ class Home extends StatelessWidget {
                 },
               ),
             ),
+            Card(
+              child: ListTile(
+                title: Text(MyLocalizations.of(context).example_hooks_title),
+                onTap: () {
+                  // 使用 GoRouter 進行導航
+                  context.go('/hooks');
+                },
+              ),
+            ),
           ],
         ),
       ),

@@ -4,6 +4,7 @@ import 'package:my_sample/config/app_config.dart';
 import 'package:my_sample/feature/bloc/bookmark_bloc_page.dart';
 import 'package:my_sample/feature/cubit/bookmark_cubit_page.dart';
 import 'package:my_sample/feature/home.dart';
+import 'package:my_sample/feature/hooks/hooks_page.dart';
 import 'package:my_sample/feature/inherited_widget/inherited_widget.dart';
 import 'package:my_sample/feature/provider/bookmark_page.dart';
 import 'package:my_sample/feature/riverpod/bookmark_riverpod_page.dart';
@@ -56,6 +57,12 @@ final router = GoRouter(
           path: 'cubit',
           builder: (context, state) {
             return const BookmarkCubitPage();
+          },
+        ),
+        GoRoute(
+          path: 'hooks',
+          builder: (context, state) {
+            return const HooksPage();
           },
         ),
       ],

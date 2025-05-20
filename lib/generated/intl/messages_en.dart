@@ -29,6 +29,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "example_cubit_title": MessageLookupByLibrary.simpleMessage(
       "Cubit Example",
     ),
+    "example_hooks_title": MessageLookupByLibrary.simpleMessage(
+      "Hooks Example",
+    ),
     "example_inherited_widget_content": MessageLookupByLibrary.simpleMessage(
       "Enter your username:",
     ),

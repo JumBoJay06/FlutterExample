@@ -189,6 +189,16 @@ class MyLocalizations {
       args: [],
     );
   }
+
+  /// `Hooks Example`
+  String get example_hooks_title {
+    return Intl.message(
+      'Hooks Example',
+      name: 'example_hooks_title',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<MyLocalizations> {

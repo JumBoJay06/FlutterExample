@@ -27,6 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "appTitle": MessageLookupByLibrary.simpleMessage("Flutter 範例"),
     "example_bloc_title": MessageLookupByLibrary.simpleMessage("Bloc 範例"),
     "example_cubit_title": MessageLookupByLibrary.simpleMessage("Cubit 範例"),
+    "example_hooks_title": MessageLookupByLibrary.simpleMessage("Hooks 範例"),
     "example_inherited_widget_content": MessageLookupByLibrary.simpleMessage(
       "輸入使用者名稱:",
     ),
