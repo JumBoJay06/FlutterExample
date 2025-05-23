@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "example_cubit_title": MessageLookupByLibrary.simpleMessage(
       "Cubit Example",
     ),
+    "example_get_x_title": MessageLookupByLibrary.simpleMessage("GetX Example"),
     "example_hooks_title": MessageLookupByLibrary.simpleMessage(
       "Hooks Example",
     ),

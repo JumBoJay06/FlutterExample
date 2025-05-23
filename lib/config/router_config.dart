@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:my_sample/config/app_config.dart';
 import 'package:my_sample/feature/bloc/bookmark_bloc_page.dart';
 import 'package:my_sample/feature/cubit/bookmark_cubit_page.dart';
+import 'package:my_sample/feature/get_x/bookmark_get_x_page.dart';
 import 'package:my_sample/feature/home.dart';
 import 'package:my_sample/feature/hooks/hooks_page.dart';
 import 'package:my_sample/feature/inherited_widget/inherited_widget.dart';
@@ -63,6 +64,13 @@ final router = GoRouter(
           path: 'hooks',
           builder: (context, state) {
             return const HooksPage();
+          },
+        ),
+        // 一般來說有用 GetX 的話，會用 GetX 的路由
+        GoRoute(
+          path: 'get_x',
+          builder: (context, state) {
+            return const BookmarkGetXPage();
           },
         ),
       ],

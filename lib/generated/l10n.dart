@@ -199,6 +199,16 @@ class MyLocalizations {
       args: [],
     );
   }
+
+  /// `GetX Example`
+  String get example_get_x_title {
+    return Intl.message(
+      'GetX Example',
+      name: 'example_get_x_title',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<MyLocalizations> {

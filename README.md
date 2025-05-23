@@ -12,5 +12,6 @@ A new Flutter project.
 - Riverpod
 - Bloc / Cubit
 - Hooks
+- GetX
 
 > 未完待續，有時間就會來補齊一些 Flutter 常用的功能與套件

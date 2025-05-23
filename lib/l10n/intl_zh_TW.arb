@@ -14,5 +14,6 @@
   "example_riverpod_title": "Riverpod 範例",
   "example_bloc_title": "Bloc 範例",
   "example_cubit_title": "Cubit 範例",
-  "example_hooks_title": "Hooks 範例"
+  "example_hooks_title": "Hooks 範例",
+  "example_get_x_title": "GetX 範例"
 }
